@@ -76,7 +76,7 @@ export default function Navbar() {
         >
           <a
             className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
-            href="/recommendations.html"
+            href="/"
           >
             Beranda
           </a>

@@ -1,12 +1,13 @@
 import {createRoot} from "react-dom/client";
-import Container from "../nav_footer/container";
 import './global.css'
+import Container from "../nav_footer/Container";
+import Recommendations from "../recommendation/Recommendations";
 
 createRoot(document.getElementById('root'))
     .render(
-        <div>
+        <div className="bg-secondary font-jakarta">
             <Container>
-                <p>Aku sebagai</p>
+                <Recommendations/>
             </Container>
         </div>
     )
