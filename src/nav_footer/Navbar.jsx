@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import logo from './../assets/logo_kmtembus.png';
+import logo from "./../assets/logo_kmtembus.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Navbar() {
@@ -49,7 +49,7 @@ export default function Navbar() {
     <div
       id="navbar"
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        isNavbarScrolled ? "bg-white" : "bg-transparent" 
+        isNavbarScrolled ? "bg-white" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between p-6">
@@ -125,7 +125,7 @@ export default function Navbar() {
           </div>
           <a
             className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
-            href="/recommendations.html"
+            href="/field_program.html"
           >
             Bidang & Program Kerja
           </a>

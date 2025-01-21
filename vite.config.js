@@ -8,7 +8,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: "index.html",
-        recommendations: "recommendations.html"
+        recommendations: "recommendations.html",
+        field_program: "field_program.html"
       }
     }
   }
