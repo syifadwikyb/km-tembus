@@ -1,11 +1,14 @@
-export default function Container({childern}) {
-    return(
-        <div>
-            <h1>Nav bar</h1>
+import Footer from "./Footer";
+import Navbar from "./navbar";
 
-            {childern}
+export default function Container({ children }) {
+  return (
+    <div>
+      <Navbar />
 
-            <h1>Footer</h1>
-        </div>
-    )
+      {children}
+
+      <Footer/>
+    </div>
+  );
 }

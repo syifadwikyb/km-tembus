@@ -1,12 +1,12 @@
 import {createRoot} from "react-dom/client";
 import Container from "../nav_footer/container";
-import HelloWorld from "./HelloWorld";
+import './global.css'
 
 createRoot(document.getElementById('root'))
     .render(
         <div>
             <Container>
-                <HelloWorld/>
+                <p>Aku sebagai</p>
             </Container>
         </div>
     )
