@@ -9,7 +9,7 @@ export default function Member({
     return(
         <div className="container mx-auto mt-16 md:mt-24 lg:mt-32">
             <p className="text-2xl font-bold text-center">Anggota</p>
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center p-6">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center p-4">
 
                 <div className="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
                     <img className="w-full h-40 md:h-48 lg:h-56 object-cover" src={imgMember1}/>
