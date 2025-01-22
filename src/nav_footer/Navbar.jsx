@@ -52,7 +52,7 @@ export default function Navbar() {
         isNavbarScrolled ? "bg-white" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between p-6">
+      <div className="container mx-auto flex items-center justify-between py-2 px-6 lg:px-0 lg:py-6">
         <a href="/">
           <img className="h-12 w-auto md:h-14 lg:h-16" src={logo} />
         </a>
@@ -72,16 +72,16 @@ export default function Navbar() {
             isMenuOpen
               ? "flex translate-y-0"
               : "hidden lg:flex -translate-y-full lg:translate-y-0"
-          } flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-6 lg:items-center lg:static absolute top-20 w-1/3 bg-white lg:bg-transparent lg:w-auto lg:p-0 p-4 right-0 shadow-lg lg:shadow-none transition-all duration-300 transform`}
+          } flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-6 lg:items-center lg:static absolute top-20 w-1/2 bg-white lg:bg-transparent lg:w-auto p-2 right-0 shadow-lg lg:shadow-none transition-all duration-300 transform rounded-md lg:rounded-none`}
         >
           <a
-            className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/"
           >
             Beranda
           </a>
           <a
-            className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/recommendations.html"
           >
             Rekomendasi
@@ -92,14 +92,14 @@ export default function Navbar() {
               id="activityButton"
               ref={buttonRef}
               onClick={toggleDropdown}
-              className="flex items-baseline space-x-2 text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+              className="flex items-baseline space-x-2 text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             >
               <span>Aktivitas</span>
               <i
                 id="iconArrow"
                 className={`fas ${
                   isDropdownOpen ? "fa-chevron-down" : "fa-chevron-right"
-                } text-sm`}
+                } text-xs`}
               />
             </a>
             <div
@@ -124,13 +124,13 @@ export default function Navbar() {
             </div>
           </div>
           <a
-            className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/field_program.html"
           >
             Bidang & Program Kerja
           </a>
           <a
-            className="text-sm md:text-base lg:text-lg font-semibold text-gray-900 px-6 py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/recommendations.html"
           >
             Kontak

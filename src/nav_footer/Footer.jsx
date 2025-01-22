@@ -61,7 +61,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <p className="text-sm lg:text-lg text-center p-4 text-white">Hak Cipta © 2024 KM_TEMBUS. Terima
+            <p className="text-xs lg:text-lg text-center p-4 text-white">Hak Cipta © 2024 KM_TEMBUS. Terima
                 kasih telah mengunjungi!
             </p>
         </div>
