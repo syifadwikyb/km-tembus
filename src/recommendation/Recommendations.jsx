@@ -6,18 +6,20 @@ export default function Recommendations() {
             <div className="container mx-auto lg:mt-28">
                 <div className="flex flex-col-reverse lg:flex-row my-16 lg:mb-32 justify-between">
                     <div>
-                        <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                        <TitleRecommendation title="Rekomendasi Tempat Makan"/>
+                        <div className="flex justify-center">
+                            <div className="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4 px-4 lg:px-0">
+                                <ListRecommendation name="• Penyetan Sami Seneng" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak Dago" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Baskoro" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Banjarsari" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Cak Eco" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Burjo Motekar" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Mas Londo" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Qiu Pasta" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak 27 Perumda" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Ayam Geprek Petir" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                            </div>
                         </div>
                     </div>
                     <div className="flex justify-center w-full lg:flex-1 order-1 lg:order-none mb-6 lg:mb-0">
@@ -30,17 +32,19 @@ export default function Recommendations() {
                 <div className="flex flex-col-reverse lg:flex-row mb-16 lg:mb-32 justify-between">
                     <div>
                         <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                        <div className="flex justify-between">
+                            <div className="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4 px-4 lg:px-0">
+                                <ListRecommendation name="• Penyetan Sami Seneng" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak Dago" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Baskoro" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Banjarsari" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Cak Eco" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Burjo Motekar" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Mas Londo" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Qiu Pasta" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak 27 Perumda" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Ayam Geprek Petir" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                            </div>
                         </div>
                     </div>
                     <div className="flex justify-center w-full lg:flex-1 order-1 lg:order-none mb-6 lg:mb-0">
@@ -53,17 +57,19 @@ export default function Recommendations() {
                 <div className="flex flex-col-reverse lg:flex-row mb-16 lg:mb-32 justify-between">
                     <div>
                         <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
-                            <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                        <div className="flex justify-center">
+                            <div className="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4 px-4 lg:px-0">
+                                <ListRecommendation name="• Penyetan Sami Seneng" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak Dago" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Baskoro" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Soto Banjarsari" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Cak Eco" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Burjo Motekar" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Mas Londo" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Qiu Pasta" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Seblak 27 Perumda" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                                <ListRecommendation name="• Ayam Geprek Petir" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
+                            </div>
                         </div>
                     </div>
                     <div className="flex justify-center w-full lg:flex-1 order-1 lg:order-none mb-6 lg:mb-0">
@@ -80,7 +86,7 @@ export default function Recommendations() {
 function TitleRecommendation({title}) {
     return(
         <div>
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 lg:text-left md:text-center text-center">{title}</p>
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold lg:mb-8 md:mb-4 mb-2 lg:text-left md:text-center text-center">{title}</p>
         </div>
     )
 }

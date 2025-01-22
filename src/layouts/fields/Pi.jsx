@@ -15,59 +15,64 @@ createRoot(document.getElementById('root'))
                         desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
-                        field="Program Kerja"
-                        field1="Program Kerja 1-5"
-                        field2="Program Kerja 1-5"
-                        field3="Program Kerja 1-5"
-                        field4="Program Kerja 1-5"
-                        field5="Program Kerja 1-5"
+                        proker="Program Kerja"
+                        proker1="First Gathering STO"
+                        proker2="First Gathering Mahasiswa Baru"
+                        proker3="Malam Keakraban (Makrab)"
+                        proker4="HUT Tembus"
+                        proker5="Halal Bihalal"
                         doc={Doc}
                     />      
                     <TimeLine
                         timeline="Time Line Program Kerja"
-                        programUp1="Makrab"
+                        programUp1="First Gathering STO"
                         timeUp1="Januari 2025"
 
-                        programDown1="Makrab"
+                        programDown1="First Gathering Mahasiswa Baru"
                         timeDown1="Januari 2025"
 
-                        programUp2="Makrab"
+                        programUp2="Malam Keakraban (Makrab)"
                         timeUp2="Januari 2025"
 
-                        programDown2="Makrab"
+                        programDown2="HUT Tembus"
                         timeDown2="Januari 2025"
 
-                        programUp3="Makrab"
-                        timeUp3="Januari 2025"
-
-                        programDown3="Makrab"
-                        timeDown3="Januari 2025"                        
+                        programUp3="Halal Bihalal"
+                        timeUp3="Januari 2025"                   
                     />
 
                     <Member
-                        member1="Nama"
+                        member1="Ghani Ardi Kurniawan"
                         imgMember1={Doc}
-                        position1="Posisi"
+                        position1="Kepala Bidang"
 
-                        member2="Nama"
+                        member2="Dea Salsabila"
                         imgMember2={Doc}
-                        position2="Posisi"
+                        position2="Wakil Kepala Bidang"
 
-                        member3="Nama"
+                        member3="Abdiela Oktafina Alea Putri"
                         imgMember3={Doc}
-                        position3="Posisi"
+                        position3="Staff Muda"
 
-                        member4="Nama"
+                        member4="Ahmad Badawi"
                         imgMember4={Doc}
-                        position4="Posisi"
+                        position4="Staff Muda"
 
-                        member5="Nama"
+                        member5="Hasan Suryadharma"
                         imgMember5={Doc}
-                        position5="Posisi"
+                        position5="Staff Muda"
 
-                        member6
-                        imgMember6
-                        position6
+                        member6="Muhammad Rizqi Aditya Prastomo"
+                        imgMember6={Doc}
+                        position6="Staff Muda"
+
+                        member7="Neni Qoerunnissa"
+                        imgMember7={Doc}
+                        position7="Staff Muda"
+
+                        member8="Sherly Aprilia Damayanti"
+                        imgMember8={Doc}
+                        position8="Staff Muda"
                     />        
                 </Container>
             </div>

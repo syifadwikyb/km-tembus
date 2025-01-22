@@ -45,29 +45,33 @@ createRoot(document.getElementById('root'))
                     />
 
                     <Member
-                        member1="Nama"
+                        member1="Rafiq Afrizal Bastian"
                         imgMember1={Doc}
-                        position1="Posisi"
+                        position1="AKU ADALAH RAJAAA"
 
-                        member2="Nama"
+                        member2="Syifa Dwiky Basamala"
                         imgMember2={Doc}
-                        position2="Posisi"
+                        position2="Wakil Ketua Internal"
 
-                        member3="Nama"
+                        member3="Noor Maulidda"
                         imgMember3={Doc}
-                        position3="Posisi"
+                        position3="Wakil Ketua Eksternal"
 
-                        member4="Nama"
+                        member4="Endika Suryaningtyas"
                         imgMember4={Doc}
-                        position4="Posisi"
+                        position4="Sekretaris 1"
 
-                        member5="Nama"
+                        member5="Faranisa Syifa Aulia Wibowo"
                         imgMember5={Doc}
-                        position5="Posisi"
+                        position5="Sekretaris 2"
 
-                        member6
-                        imgMember6
-                        position6
+                        member6="Imelda Valencia"
+                        imgMember6={Doc}
+                        position6="Bendahara 1"
+
+                        member7="Nita Ayunda Oktavianingrum"
+                        imgMember7={Doc}
+                        position7="Bendahara 2"
                     />        
                 </Container>
             </div>

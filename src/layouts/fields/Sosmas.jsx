@@ -15,59 +15,61 @@ createRoot(document.getElementById('root'))
                         desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
-                        field="Program Kerja"
-                        field1="Program Kerja 1-5"
-                        field2="Program Kerja 1-5"
-                        field3="Program Kerja 1-5"
-                        field4="Program Kerja 1-5"
-                        field5="Program Kerja 1-5"
+                        proker="Program Kerja"
+
+                        proker1="Kupas Sosling"
+                        proker2="Jejak Tembus"
+                        proker3="Tembus Mengajar"
+                        proker4="Tembus Care"
                         doc={Doc}
                     />      
                     <TimeLine
                         timeline="Time Line Program Kerja"
-                        programUp1="Makrab"
+                        programUp1="Kupas Sosling"
                         timeUp1="Januari 2025"
 
-                        programDown1="Makrab"
+                        programDown1="Jejak Tembus"
                         timeDown1="Januari 2025"
 
-                        programUp2="Makrab"
+                        programUp2="Tembus Mengajar"
                         timeUp2="Januari 2025"
 
-                        programDown2="Makrab"
-                        timeDown2="Januari 2025"
-
-                        programUp3="Makrab"
-                        timeUp3="Januari 2025"
-
-                        programDown3="Makrab"
-                        timeDown3="Januari 2025"                        
+                        programDown2="Tembus Care"
+                        timeDown2="Januari 2025"                                      
                     />
 
                     <Member
-                        member1="Nama"
+                        member1="Putri Irvina Cahya M."
                         imgMember1={Doc}
-                        position1="Posisi"
+                        position1="Kepala Bidang"
 
-                        member2="Nama"
+                        member2="Naiela Jannatun Nurya"
                         imgMember2={Doc}
-                        position2="Posisi"
+                        position2="Wakil Kepala Bidang"
 
-                        member3="Nama"
+                        member3="Ardelian Adityas Saputra"
                         imgMember3={Doc}
-                        position3="Posisi"
+                        position3="Staff Muda"
 
-                        member4="Nama"
+                        member4="Desvita Tri Anggraeni"
                         imgMember4={Doc}
-                        position4="Posisi"
+                        position4="Staff Muda"
 
-                        member5="Nama"
+                        member5="Ferdiana Rosyada Selly"
                         imgMember5={Doc}
-                        position5="Posisi"
+                        position5="Staff Muda"
 
-                        member6
-                        imgMember6
-                        position6
+                        member6="Kayyis Rakha Pranaya Putra"
+                        imgMember6={Doc}
+                        position6="Staff Muda"
+
+                        member7="Rizka Rahmadhani"
+                        imgMember7={Doc}
+                        position7="Staff Muda"
+
+                        member8="Sabrina Putri Ramadhani"
+                        imgMember8={Doc}
+                        position8="Staff Muda"
                     />        
                 </Container>
             </div>

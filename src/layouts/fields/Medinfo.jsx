@@ -15,59 +15,58 @@ createRoot(document.getElementById('root'))
                         desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
-                        field="Program Kerja"
-                        field1="Program Kerja 1-5"
-                        field2="Program Kerja 1-5"
-                        field3="Program Kerja 1-5"
-                        field4="Program Kerja 1-5"
-                        field5="Program Kerja 1-5"
+                        proker="Program Kerja"
+
+                        proker1="Sahur on The Road"
+                        proker2="Launching Kabinet"
+                        proker3="Foto Profil Pengurus"
+                        proker4="Sie Dokumentasi"                        
                         doc={Doc}
                     />      
                     <TimeLine
                         timeline="Time Line Program Kerja"
-                        programUp1="Makrab"
+
+                        programUp1="Sahur on The Road"
                         timeUp1="Januari 2025"
 
-                        programDown1="Makrab"
+                        programDown1="Launching Kabinet"
                         timeDown1="Januari 2025"
 
-                        programUp2="Makrab"
+                        programUp2="Foto Profil Pengurus"
                         timeUp2="Januari 2025"
 
-                        programDown2="Makrab"
-                        timeDown2="Januari 2025"
-
-                        programUp3="Makrab"
-                        timeUp3="Januari 2025"
-
-                        programDown3="Makrab"
-                        timeDown3="Januari 2025"                        
+                        programDown2="Sie Dokumentasi"
+                        timeDown2="Januari 2025"                     
                     />
 
                     <Member
-                        member1="Nama"
+                        member1="Lintang Raya Adinata"
                         imgMember1={Doc}
-                        position1="Posisi"
+                        position1="Kepala Bidang"
 
-                        member2="Nama"
+                        member2="Krisna Gustian Triswanto"
                         imgMember2={Doc}
-                        position2="Posisi"
+                        position2="Wakil Kepala Bidang"
 
-                        member3="Nama"
+                        member3="Florentina Stella Widyastanti"
                         imgMember3={Doc}
-                        position3="Posisi"
+                        position3="Staff Muda"
 
-                        member4="Nama"
+                        member4="Marsyanda Fara Islami"
                         imgMember4={Doc}
-                        position4="Posisi"
+                        position4="Staff Muda"
 
-                        member5="Nama"
+                        member5="Muhammad Zada Fajri Mushofa"
                         imgMember5={Doc}
-                        position5="Posisi"
+                        position5="Staff Muda"
 
-                        member6
-                        imgMember6
-                        position6
+                        member6="Berliana Sekar Ramadhani El Akhsan"
+                        imgMember6={Doc}
+                        position6="Staff Muda"
+
+                        member7="Rizki Anindia"
+                        imgMember7={Doc}
+                        position7="Staff Muda"
                     />        
                 </Container>
             </div>

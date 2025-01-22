@@ -15,59 +15,48 @@ createRoot(document.getElementById('root'))
                         desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
-                        field="Program Kerja"
-                        field1="Program Kerja 1-5"
-                        field2="Program Kerja 1-5"
-                        field3="Program Kerja 1-5"
-                        field4="Program Kerja 1-5"
-                        field5="Program Kerja 1-5"
+                        proker="Program Kerja"
+                        proker1="Pengadaan Lanyard & PDL"
+                        proker2="Open Jastip"
                         doc={Doc}
                     />      
                     <TimeLine
                         timeline="Time Line Program Kerja"
-                        programUp1="Makrab"
+                        programUp1="Pengadaan Lanyard & PDL"
                         timeUp1="Januari 2025"
 
-                        programDown1="Makrab"
-                        timeDown1="Januari 2025"
-
-                        programUp2="Makrab"
-                        timeUp2="Januari 2025"
-
-                        programDown2="Makrab"
-                        timeDown2="Januari 2025"
-
-                        programUp3="Makrab"
-                        timeUp3="Januari 2025"
-
-                        programDown3="Makrab"
-                        timeDown3="Januari 2025"                        
+                        programDown1="Open Jastip"
+                        timeDown1="Januari 2025"                   
                     />
 
                     <Member
-                        member1="Nama"
+                        member1="Nilna Sholeha"
                         imgMember1={Doc}
-                        position1="Posisi"
+                        position1="Kepala Bidang"
 
-                        member2="Nama"
+                        member2="Taraka Sela Hutama"
                         imgMember2={Doc}
-                        position2="Posisi"
+                        position2="Wakil Kepala Bidang"
 
-                        member3="Nama"
+                        member3="Azzarah Aula Ariwani"
                         imgMember3={Doc}
-                        position3="Posisi"
+                        position3="Staff Muda"
 
-                        member4="Nama"
+                        member4="Fausta Davin Ekapriya"
                         imgMember4={Doc}
-                        position4="Posisi"
+                        position4="Staff Muda"
 
-                        member5="Nama"
+                        member5="Nurul Aulia"
                         imgMember5={Doc}
-                        position5="Posisi"
+                        position5="Staff Muda"
 
-                        member6
-                        imgMember6
-                        position6
+                        member6="Nurun Nasywa Imtiyaaz"
+                        imgMember6={Doc}
+                        position6="Staff Muda"
+
+                        member7="Reza Pahlevi"
+                        imgMember7={Doc}
+                        position7="Staff Muda"
                     />        
                 </Container>
             </div>
