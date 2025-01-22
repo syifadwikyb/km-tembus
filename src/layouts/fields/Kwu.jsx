@@ -1,6 +1,6 @@
 import {createRoot} from "react-dom/client";
 import '../global.css'
-import Container from "../../nav_footer/Container.jsx";
+import Container from "../../nav_footer/Container";
 import Fields from "../../field_program/Fields.jsx";
 import Doc from "./../../assets/documentation_2.jpg";
 import TimeLine from "../../field_program/TimeLine.jsx";
