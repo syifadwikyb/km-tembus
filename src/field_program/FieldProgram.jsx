@@ -15,27 +15,45 @@ export default function FieldProgram() {
             
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 justify-items-center px-20 md:p-6 lg:p-8">
                 <Card 
-                    link="/"
+                    link="/bph.html"
                     doc={Doc2}
                     text="BPH-Badan Pengurus Harian"
                 />         
 
                 <Card 
-                    link="/"
+                    link="/pi.html"
                     doc={Doc2}
-                    text="BPH-Badan Pengurus Harian"
+                    text="PI-Pengembangan Internal"
                 />
 
                 <Card 
-                    link="/"
+                    link="/mikat.html"
                     doc={Doc2}
-                    text="BPH-Badan Pengurus Harian"
+                    text="MIKAT-Minat dan Bakat"
                 />
 
                 <Card 
-                    link="/"
+                    link="/medinfo.html"
                     doc={Doc2}
-                    text="BPH-Badan Pengurus Harian"
+                    text="MEDINFO-Media dan Informasi"
+                /> 
+
+                <Card 
+                    link="/re.html"
+                    doc={Doc2}
+                    text="RE-Relasi Eksternal"
+                /> 
+
+                <Card 
+                    link="/kwu"
+                    doc={Doc2}
+                    text="KWU-Kewirausahan"
+                />   
+
+                <Card 
+                    link="/sosmas"
+                    doc={Doc2}
+                    text="SOSMAS-Sosial Masyarakat"
                 />     
             </div>
 

@@ -9,7 +9,14 @@ export default defineConfig({
       input: {
         index: "index.html",
         recommendations: "recommendations.html",
-        field_program: "field_program.html"
+        field_program: "field_program.html",
+        bph:"bph.html",
+        pi:"pi.html",
+        mikat:"mikat.html",
+        medinfo:"medinfo.html",
+        re:"re.html",        
+        kwu:"kwu.html",        
+        sosmas:"sosmas.html",        
       }
     }
   }
