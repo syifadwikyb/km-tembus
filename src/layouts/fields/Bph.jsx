@@ -1,10 +1,10 @@
 import {createRoot} from "react-dom/client";
-import '../global.css'
-import Container from "../../nav_footer/Container";
-import Fields from "../../field_program/Fields.jsx";
+import './../global.css'
+import Container from "./../../nav_footer/Container";
+import Fields from "./../../field_program/Fields.jsx";
 import Doc from "./../../assets/documentation_2.jpg";
-import TimeLine from "../../field_program/TimeLine.jsx";
-import Member from "../../field_program/Member.jsx";
+import TimeLine from "./../../field_program/TimeLine.jsx";
+import Member from "./../../field_program/Member.jsx";
 
 createRoot(document.getElementById('root'))
     .render(

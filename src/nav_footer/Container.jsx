@@ -1,14 +1,14 @@
-// import Footer from "./Footer";
-// import Navbar from "./navbar";
+import Footer from "./Footer";
+import Navbar from "./navbar";
 
-// export default function Container({ children }) {
-//   return (
-//     <div>
-//       <Navbar />
+export default function Container({ children }) {
+  return (
+    <div>
+      <Navbar />
 
-//       {children}
+      {children}
 
-//       <Footer/>
-//     </div>
-//   );
-// }
+      <Footer/>
+    </div>
+  );
+}

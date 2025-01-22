@@ -1,7 +1,7 @@
 import {createRoot} from "react-dom/client";
 import './global.css'
-import Container from "../nav_footer/Container";
-import Recommendations from "../recommendation/Recommendations";
+import Container from "./../nav_footer/Container";
+import Recommendations from "./../recommendation/Recommendations";
 
 createRoot(document.getElementById('root'))
     .render(
