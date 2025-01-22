@@ -2,7 +2,7 @@ import Doc2 from "./../assets/documentation_2.jpg";
 
 export default function FieldProgram() {
     return(
-        <div className="container mx-auto lg:mt-28">
+        <div className="container mx-auto mt-16 lg:mt-28">
 
             {/* Fields */}
 
@@ -17,50 +17,50 @@ export default function FieldProgram() {
                 <Card 
                     link="/bph.html"
                     doc={Doc2}
-                    text="BPH-Badan Pengurus Harian"
+                    text="Badan Pengurus Harian"
                 />         
 
                 <Card 
                     link="/pi.html"
                     doc={Doc2}
-                    text="PI-Pengembangan Internal"
+                    text="Pengembangan Internal"
                 />
 
                 <Card 
                     link="/mikat.html"
                     doc={Doc2}
-                    text="MIKAT-Minat dan Bakat"
+                    text="Minat dan Bakat"
                 />
 
                 <Card 
                     link="/medinfo.html"
                     doc={Doc2}
-                    text="MEDINFO-Media dan Informasi"
+                    text="Media dan Informasi"
                 /> 
 
                 <Card 
                     link="/re.html"
                     doc={Doc2}
-                    text="RE-Relasi Eksternal"
+                    text="Relasi Eksternal"
                 /> 
 
                 <Card 
                     link="/kwu"
                     doc={Doc2}
-                    text="KWU-Kewirausahan"
+                    text="Kewirausahan"
                 />   
 
                 <Card 
                     link="/sosmas"
                     doc={Doc2}
-                    text="SOSMAS-Sosial Masyarakat"
+                    text="Sosial Masyarakat"
                 />     
             </div>
 
 
             {/* Programs */}
 
-            <div className="flex-1 px-4 text-center">
+            <div className="flex-1 px-4 text-center mt-16">
                 <Title title="Bidang KM TEMBUS"/>
                 <Desc desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
@@ -116,10 +116,10 @@ function Card({link, doc, text}) {
     return(
         <div>
             <a href={link}>
-                <div className="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden border-primary border-2">
-                    <img className="w-full h-40 md:h-48 lg:h-56 object-cover" src={doc} />
+                <div className="w-32 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+                    <img className="w-full h-24 md:h-48 lg:h-56 object-cover" src={doc} />
                     <div className="p-2 md:p-3 lg:p-4">
-                        <p className="text-sm md:text-lg lg:text-xl font-semibold">{text}</p>
+                        <p className="text-xs md:text-lg lg:text-xl font-semibold">{text}</p>
                     </div>
                 </div>
             </a>

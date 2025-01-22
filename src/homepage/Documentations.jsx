@@ -32,10 +32,10 @@ export default function Documentations() {
     <div className="container mx-auto w-full overflow-hidden mt-10">
       <div className="flex flex-col gap-4">
         <div id="scrollRowLeft" className="flex gap-4 whitespace-nowrap">
-          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />1
-          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />2
-          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />3
-          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />4
+          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />
+          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />
+          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />
+          <img className="w-48 h-28 lg:w-60 lg:h-36 object-cover" src={Doc1} />
         </div>
       </div>
     </div>

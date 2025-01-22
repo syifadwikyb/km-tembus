@@ -75,13 +75,13 @@ export default function Navbar() {
           } flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-6 lg:items-center lg:static absolute top-20 w-1/2 bg-white lg:bg-transparent lg:w-auto p-2 right-0 shadow-lg lg:shadow-none transition-all duration-300 transform rounded-md lg:rounded-none`}
         >
           <a
-            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-2 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/"
           >
             Beranda
           </a>
           <a
-            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-2 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/recommendations.html"
           >
             Rekomendasi
@@ -92,7 +92,7 @@ export default function Navbar() {
               id="activityButton"
               ref={buttonRef}
               onClick={toggleDropdown}
-              className="flex items-baseline space-x-2 text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+              className="flex items-baseline space-x-2 text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-2 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             >
               <span>Aktivitas</span>
               <i
@@ -111,26 +111,26 @@ export default function Navbar() {
             >
               <a
                 href="https://chat.whatsapp.com"
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-xs lg:text-base text-gray-700 hover:bg-gray-100"
               >
                 Gabung WhatsApp
               </a>
               <a
                 href="https://chat.whatsapp.com"
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-xs lg:text-base text-gray-700 hover:bg-gray-100"
               >
                 Upload Prestasi
               </a>
             </div>
           </div>
           <a
-            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-2 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/field_program.html"
           >
             Bidang & Program Kerja
           </a>
           <a
-            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-1 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
+            className="text-xs md:text-base lg:text-lg font-semibold text-gray-900 px-3 py-2 lg:px-6 lg:py-2 hover:rounded-md hover:bg-primary hover:text-white transition-all duration-300"
             href="/recommendations.html"
           >
             Kontak

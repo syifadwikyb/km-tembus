@@ -4,10 +4,10 @@ export default function Recommendations() {
     return (
         <div>
             <div className="container mx-auto lg:mt-28">
-                <div className="flex flex-col-reverse lg:flex-row mb-16 lg:mb-32 justify-between">
+                <div className="flex flex-col-reverse lg:flex-row my-16 lg:mb-32 justify-between">
                     <div>
                         <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
@@ -30,7 +30,7 @@ export default function Recommendations() {
                 <div className="flex flex-col-reverse lg:flex-row mb-16 lg:mb-32 justify-between">
                     <div>
                         <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
@@ -53,7 +53,7 @@ export default function Recommendations() {
                 <div className="flex flex-col-reverse lg:flex-row mb-16 lg:mb-32 justify-between">
                     <div>
                         <TitleRecommendation title="Percobaan 1"/>
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-2 gap-2 lg:gap-4 px-4 lg:px-0">
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
                             <ListRecommendation name="Kos Putra Bapak Bungsu Dan Kawanku" link="https://maps.app.goo.gl/eKgyCGQ9uoGyjWpM9"/>
@@ -88,7 +88,7 @@ function TitleRecommendation({title}) {
 function ListRecommendation({name, link}) {
     return(
         <div>
-            <a href={link} className="text-base md:text-lg lg:text-xl hover:text-blue-600 hover:underline" target="_blank">{name}</a>            
+            <a href={link} className="text-sm md:text-base lg:text-lg text-justify hover:text-blue-600 hover:underline" target="_blank">{name}</a>            
         </div>
     )
 }
