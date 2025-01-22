@@ -60,7 +60,7 @@ export default function FieldProgram() {
 
             {/* Programs */}
 
-            <div className="flex-1 px-4 text-center mt-16">
+            <div className="flex-1 p-4 text-center mt-16">
                 <Title title="Bidang KM TEMBUS"/>
                 <Desc desc="KM TEMBUS atau Keluarga Mahasiswa Tembalang Kudus merupakan Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
