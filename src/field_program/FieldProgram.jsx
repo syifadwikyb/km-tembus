@@ -13,47 +13,47 @@ export default function FieldProgram() {
                 vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum,"/>
             </div>
             
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 justify-items-center px-20 md:p-6 lg:p-8">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 justify-items-center px-4 lg:px-0 md:p-6 lg:p-8">
                 <Card 
                     link="/bph.html"
                     doc={Doc2}
-                    text="Badan Pengurus Harian"
+                    text="BPH-Badan Pengurus Harian"
                 />         
 
                 <Card 
                     link="/pi.html"
                     doc={Doc2}
-                    text="Pengembangan Internal"
+                    text="PI-Pengembangan Internal"
                 />
 
                 <Card 
                     link="/mikat.html"
                     doc={Doc2}
-                    text="Minat dan Bakat"
+                    text="MIKAT-Minat dan Bakat"
                 />
 
                 <Card 
                     link="/medinfo.html"
                     doc={Doc2}
-                    text="Media dan Informasi"
+                    text="MEDINFO-Media dan Informasi"
                 /> 
 
                 <Card 
                     link="/re.html"
                     doc={Doc2}
-                    text="Relasi Eksternal"
+                    text="RE-Relasi Eksternal"
                 /> 
 
                 <Card 
                     link="/kwu"
                     doc={Doc2}
-                    text="Kewirausahan"
+                    text="KWU-Kewirausahan"
                 />   
 
                 <Card 
                     link="/sosmas"
                     doc={Doc2}
-                    text="Sosial Masyarakat"
+                    text="SOSMAS-Sosial Masyarakat"
                 />     
             </div>
 
@@ -67,7 +67,7 @@ export default function FieldProgram() {
                 vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum,"/>
             </div>
             
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 justify-items-center px-20 md:p-6 lg:p-8">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 justify-items-center px-4 lg:px-0 md:p-6 lg:p-8">
                 <Card 
                     link="/"
                     doc={Doc2}
@@ -116,10 +116,10 @@ function Card({link, doc, text}) {
     return(
         <div>
             <a href={link}>
-                <div className="w-32 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
-                    <img className="w-full h-24 md:h-48 lg:h-56 object-cover" src={doc} />
+                <div className="w-48 md:w-56 lg:w-64 bg-white rounded-lg shadow-2xl overflow-hidden">
+                    <img className="w-full h-40 md:h-48 lg:h-56 object-cover" src={doc} />
                     <div className="p-2 md:p-3 lg:p-4">
-                        <p className="text-xs md:text-lg lg:text-xl font-semibold">{text}</p>
+                        <p className="text-center lg:text-left text-sm md:text-lg lg:text-xl font-semibold">{text}</p>
                     </div>
                 </div>
             </a>
