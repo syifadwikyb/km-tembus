@@ -5,6 +5,7 @@ import Hero from "./../homepage/Hero";
 import About from "./../homepage/About";
 import Vission_Mission from "./../homepage/Vission_Mission";
 import Documentations from "./../homepage/Documentations";
+import Kabinet from "../homepage/Kabinet";
 
 
 createRoot(document.getElementById('root'))
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root'))
                     <Hero/>
                     <About/>
                     <Vission_Mission/>
+                    <Kabinet/>
                     <Documentations/>
                 </Container>                
             </div>

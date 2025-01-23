@@ -45,13 +45,13 @@ export default function FieldProgram() {
                 /> 
 
                 <Card 
-                    link="/kwu"
+                    link="/kwu.html"
                     doc={Doc2}
                     text="KWU-Kewirausahan"
                 />   
 
                 <Card 
-                    link="/sosmas"
+                    link="/sosmas.html"
                     doc={Doc2}
                     text="SOSMAS-Sosial Masyarakat"
                 />     
