@@ -29,23 +29,23 @@ export default function Kabinet() {
                 </div>
                 <div className="flex flex-col items-center text-center">
                     <img className="w-32 md:w-48 lg:w-64 h-auto mb-4" src={sayap}/>
-                    <p className="font-bold text-lg">Kapal</p>
+                    <p className="font-bold text-lg">Sayap</p>
                     <p className="text-base md:text-lg lg:text-xl">Harapan, kemajuan, dan kemampuan untuk terbang lebih tinggi, membawa KM TEMbUS ke level yang lebih baik.</p>
                 </div>
                 <div className="flex flex-col items-center text-center">
                     <img className="w-32 md:w-48 lg:w-64 h-auto mb-4" src={perisai}/>
-                    <p className="font-bold text-lg">Kapal</p>
+                    <p className="font-bold text-lg">Perisai</p>
                     <p className="text-base md:text-lg lg:text-xl">Perlindungan dan rasa aman, memastikan bahwa seluruh anggota KM TEMBUS merasa terlindungi dalam menghadapi segala risiko.
                     </p>
                 </div>
                 <div className="flex flex-col items-center text-center">
                     <img className="w-32 md:w-48 lg:w-64 h-auto mb-4" src={tangan}/>
-                    <p className="font-bold text-lg">Kapal</p>
+                    <p className="font-bold text-lg">Tangan</p>
                     <p className="text-base md:text-lg lg:text-xl">Dukungan, kerja sama, dan kebersamaan dalam mewadahi setiap anggota KM TEMBUS untuk saling menguatkan.</p>
                 </div>
                 <div className="flex flex-col items-center text-center">
                     <img className="w-32 md:w-48 lg:w-64 h-auto mb-4" src={ombak}/>
-                    <p className="font-bold text-lg">Kapal</p>
+                    <p className="font-bold text-lg">Ombak</p>
                     <p className="text-base md:text-lg lg:text-xl">Rintangan yang dihadapi dengan semangat, keberanian, dan ketangguhan.</p>
                 </div>                
             </div>
