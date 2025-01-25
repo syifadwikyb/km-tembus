@@ -13,14 +13,13 @@ export default function Kabinet() {
                     <img className="w-80 md:w-96 lg:w-3/4 max-w-full h-auto" src={kabinet}/>
                 </div>
                 <div className="text-center lg:text-left flex-1 lg:order-1 mr-0 lg:mr-8 mb-6">
-                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">Bahtera Abhinaya</p>
+                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">Kabinet Bahtera Abhinaya</p>
                     <p className="text-base md:text-lg lg:text-2xl lg:text-justify">
                     Bahtera Abhinaya melambangkan perjalanan bersama yang penuh semangat, keberanian, dan ketangguhan dalam menghadapi rintangan demi meraih tujuan. Simbol ini mencerminkan harapan, perlindungan, dan kerja sama untuk membawa KM TEMBUS terus berkembang dan mencapai level yang lebih baik.
                     </p>
                 </div>
             </div>
 
-            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col items-center text-center">
                     <img className="w-48 lg:w-64 h-auto mb-4" src={kapal}/>

@@ -17,10 +17,10 @@ createRoot(document.getElementById('root'))
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
                         proker="Program Kerja"
 
-                        proker1="Kupas Sosling"
-                        proker2="Jejak Tembus"
-                        proker3="Tembus Mengajar"
-                        proker4="Tembus Care"
+                        proker1="• Kupas Sosling"
+                        proker2="• Jejak Tembus"
+                        proker3="• Tembus Mengajar"
+                        proker4="• Tembus Care"
                         doc={Doc}
                     />      
                     <TimeLine

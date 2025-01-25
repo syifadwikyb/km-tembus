@@ -17,10 +17,10 @@ createRoot(document.getElementById('root'))
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
                         proker="Program Kerja"
 
-                        proker1="Sahur on The Road"
-                        proker2="Launching Kabinet"
-                        proker3="Foto Profil Pengurus"
-                        proker4="Sie Dokumentasi"                        
+                        proker1="• Sahur on The Road"
+                        proker2="• Launching Kabinet"
+                        proker3="• Foto Profil Pengurus"
+                        proker4="• Sie Dokumentasi"                        
                         doc={Doc}
                     />      
                     <TimeLine

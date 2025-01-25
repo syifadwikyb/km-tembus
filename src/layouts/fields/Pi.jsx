@@ -16,11 +16,11 @@ createRoot(document.getElementById('root'))
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
                         proker="Program Kerja"
-                        proker1="First Gathering STO"
-                        proker2="First Gathering Mahasiswa Baru"
-                        proker3="Malam Keakraban (Makrab)"
-                        proker4="HUT Tembus"
-                        proker5="Halal Bihalal"
+                        proker1="• First Gathering STO"
+                        proker2="• First Gathering Mahasiswa Baru"
+                        proker3="• Malam Keakraban (Makrab)"
+                        proker4="• HUT Tembus"
+                        proker5="• Halal Bihalal"
                         doc={Doc}
                     />      
                     <TimeLine

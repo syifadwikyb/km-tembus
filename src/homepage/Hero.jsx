@@ -1,4 +1,7 @@
 import logo from './../assets/logo_kmtembus.png';
+import undip from "./../assets/undip.png";
+import polines from "./../assets/polines.png";
+import poltekkes from "./../assets/poltekkes.png";
 
 export default function Hero() {
     return(
@@ -7,9 +10,17 @@ export default function Hero() {
                 <div className="flex flex-col items-center">
                     <img className="w-1/2 md:w-2/5 lg:w-3/5 mb-6" src={logo} alt="" />
                     <div className="flex gap-4 justify-center">
-                        <img className="w-12 md:w-16 lg:w-1/6" src={logo} alt="" />
-                        <img className="w-12 md:w-16 lg:w-1/6" src={logo} alt="" />
-                        <img className="w-12 md:w-16 lg:w-1/6" src={logo} alt="" />            
+                        <div className="flex gap-3 mb-6 justify-center md:justify-start items-center">
+                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                                <img className="w-full h-full object-contain" src={undip} alt="Undip" />
+                            </div>
+                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                                <img className="w-full h-full object-contain" src={polines} alt="Polines" />
+                            </div>
+                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                                <img className="w-full h-full object-contain" src={poltekkes} alt="Poltekkes" />
+                            </div>
+                        </div>         
                     </div>
                 </div>                
             </div>

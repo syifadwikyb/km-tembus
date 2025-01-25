@@ -16,7 +16,8 @@ export default defineConfig({
         medinfo:"medinfo.html",
         re:"re.html",        
         kwu:"kwu.html",        
-        sosmas:"sosmas.html",        
+        sosmas:"sosmas.html",
+        media_partner: "media_partner.html"     
       }
     }
   }

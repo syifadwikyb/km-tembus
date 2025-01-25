@@ -1,4 +1,10 @@
-import Logo from "./../assets/logo_kmtembus.png";
+import undip from "./../assets/undip.png";
+import polines from "./../assets/polines.png";
+import poltekkes from "./../assets/poltekkes.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 export default function Footer() {
     return(
@@ -7,17 +13,27 @@ export default function Footer() {
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5 p-5">
                         <div className="col-span-1 md:col-span-1 lg:col-span-4">
-                            <div className="flex gap-3 mb-6 justify-center md:justify-start">
-                                <img className="w-1/6 lg:w-1/4" src={Logo}/>
-                                <img className="w-1/6 lg:w-1/4" src={Logo}/>
-                                <img className="w-1/6 lg:w-1/4" src={Logo}/>
+                        <div className="flex gap-3 mb-6 justify-center md:justify-start items-center">
+                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                                <img className="w-full h-full object-contain" src={undip} alt="Undip" />
                             </div>
+                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                                <img className="w-full h-full object-contain" src={polines} alt="Polines" />
+                            </div>
+                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                                <img className="w-full h-full object-contain" src={poltekkes} alt="Poltekkes" />
+                            </div>
+                        </div>
+
                             <div className="flex flex-col text-center md:text-left">
                                 <p className="text-lg md:text-2xl font-bold mb-3 text-white">Ikuti</p>
                                 <div className="flex gap-4 justify-center md:justify-start">
-                                    <img className="w-1/12 lg:w-1/6" src={Logo}/>
-                                    <img className="w-1/12 lg:w-1/6" src={Logo}/>
-                                    <img className="w-1/12 lg:w-1/6" src={Logo}/>
+                                    <a href="">
+                                        <FontAwesomeIcon icon={faWhatsapp} size="3x" />
+                                    </a>
+                                    <a href="">
+                                        <FontAwesomeIcon icon={faInstagram} size="3x" />
+                                    </a>                                                                                                    
                                 </div>
                             </div>
                         </div>

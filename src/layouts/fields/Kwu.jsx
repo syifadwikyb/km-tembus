@@ -16,8 +16,8 @@ createRoot(document.getElementById('root'))
                             sit amet, consectetur adipiscing elit. Fusce gravida pharetra tortor, non consequat ex efficitur
                             vel. Curabitur at risus et quam egestas scelerisque. Proin condimentum"
                         proker="Program Kerja"
-                        proker1="Pengadaan Lanyard & PDL"
-                        proker2="Open Jastip"
+                        proker1="• Pengadaan Lanyard & PDL"
+                        proker2="• Open Jastip"
                         doc={Doc}
                     />      
                     <TimeLine
