@@ -14,13 +14,13 @@ export default function Footer() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5 p-5">
                         <div className="col-span-1 md:col-span-1 lg:col-span-4">
                         <div className="flex gap-3 mb-6 justify-center md:justify-start items-center">
-                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                            <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
                                 <img className="w-full h-full object-contain" src={undip} alt="Undip" />
                             </div>
-                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                            <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
                                 <img className="w-full h-full object-contain" src={polines} alt="Polines" />
                             </div>
-                            <div className="w-24 h-24 flex justify-center items-center bg-white rounded-md">
+                            <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
                                 <img className="w-full h-full object-contain" src={poltekkes} alt="Poltekkes" />
                             </div>
                         </div>
@@ -29,10 +29,10 @@ export default function Footer() {
                                 <p className="text-lg md:text-2xl font-bold mb-3 text-white">Ikuti</p>
                                 <div className="flex gap-4 justify-center md:justify-start">
                                     <a href="">
-                                        <FontAwesomeIcon icon={faWhatsapp} size="3x" />
+                                        <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                                     </a>
                                     <a href="">
-                                        <FontAwesomeIcon icon={faInstagram} size="3x" />
+                                        <FontAwesomeIcon icon={faInstagram} size="2x" />
                                     </a>                                                                                                    
                                 </div>
                             </div>
