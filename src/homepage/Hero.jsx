@@ -11,13 +11,13 @@ export default function Hero() {
                     <img className="w-1/2 md:w-2/5 lg:w-3/5 mb-6" src={logo} alt="" />
                     <div className="flex gap-4 justify-center">
                         <div className="flex gap-3 mb-6 justify-center md:justify-start items-center">
-                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                            <div className="w-20 h-20 lg:w-36 lg:h-36 flex justify-center items-center">
                                 <img className="w-full h-full object-contain" src={undip} alt="Undip" />
                             </div>
-                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                            <div className="w-20 h-20 lg:w-36 lg:h-36 flex justify-center items-center">
                                 <img className="w-full h-full object-contain" src={polines} alt="Polines" />
                             </div>
-                            <div className="w-24 h-24 lg:w-36 lg:h-36 flex justify-center items-center">
+                            <div className="w-20 h-20 lg:w-36 lg:h-36 flex justify-center items-center">
                                 <img className="w-full h-full object-contain" src={poltekkes} alt="Poltekkes" />
                             </div>
                         </div>         
