@@ -1,7 +1,6 @@
 import undip from "./../assets/undip.png";
 import polines from "./../assets/polines.png";
 import poltekkes from "./../assets/poltekkes.png";
-import kmtembus from "./../assets/logo_kmtembus.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -16,16 +15,13 @@ export default function Footer() {
                         <div className="col-span-1 md:col-span-1 lg:col-span-4">
                         <div className="flex gap-3 mb-6 justify-center md:justify-start items-center">
                             <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
-                                <img className="w-full h-full object-contain" src={kmtembus}/>
+                                <img className="w-full h-full object-contain" src={undip} alt="Undip" />
                             </div>
                             <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
-                                <img className="w-full h-full object-contain" src={undip}/>
+                                <img className="w-full h-full object-contain" src={polines} alt="Polines" />
                             </div>
                             <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
-                                <img className="w-full h-full object-contain" src={polines}/>
-                            </div>
-                            <div className="w-16 h-16 lg:w-20 lg:h-20 flex justify-center items-center bg-white rounded-md">
-                                <img className="w-full h-full object-contain" src={poltekkes}/>
+                                <img className="w-full h-full object-contain" src={poltekkes} alt="Poltekkes" />
                             </div>
                         </div>
 
